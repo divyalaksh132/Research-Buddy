@@ -1,48 +1,53 @@
-# Research Buddy
-######  ~Effortless happy research
+# 🎓 Research Buddy
+*Effortless AI-powered research assistance*
 
-### ABOUT
-Empowering research scholars with AI technology, 
-Research Buddy allows you to upload research papers and 
-receive quick and accurate answers to your questions, 
-all powered by OpenAI's advanced technology.
+## 📖 About
+Research Buddy helps research scholars get quick and accurate answers from their uploaded research papers using advanced AI technology.
 
-### HOW TO USE:
-Visit our website on : https://research-buddy.streamlit.app/
-1. Upload your research paper through the upload button.
-2. Type your question on the text box.
-3. Click 'Submit'.
-4. Relax while we extract your answer.
-5. Hurray! your answer's here!!
+## 🚀 Features
+- Upload your research papers
+- Ask questions and receive answers instantly
+- Simplifies academic research
 
-## Open for Contributions
+## 🛠 How It Works
+1. Click the upload button to add your research paper  
+2. Type your question into the text box  
+3. Click "Submit"  
+4. Relax while AI extracts your answer  
+5. 🎉 Your answer appears like magic!
 
-This is an open source project so feel free to contribute!!
+## 🤝 Contributing
+This is an open-source project. Contributions are welcome!
 
-Follow these simple steps:
+### Follow these steps:
+```bash
+# 1. Fork this repository
 
-1. Fork This Repository
-	
-2.  Using Git on your local machine, clone your fork using the URL you just copied: git clone URL_OF_FORK
-	
-3.  Navigate to Repo enter cd NAME_OF_REPOSITORY
-	
-4.  git remote add upstream URL_OF_PROJECT
-	
-5.  git remote -v
-	
-6.  git pull upstream master
-	
-7.  git checkout -b BRANCH_NAME
-	
-8.  Make Changes
-	
-9.  git add .
-	
-10.  git commit -m "commit message"
-       
-11.  git push -u origin BRANCH_NAME
+# 2. Clone your fork
+git clone URL_OF_FORK
 
-### LINKS
-Website: https://research-buddy.streamlit.app/
-#### Happy Research!
+# 3. Navigate into the repo
+cd REPO_NAME
+
+# 4. Link the original repo
+git remote add upstream URL_OF_PROJECT
+
+# 5. Verify remotes
+git remote -v
+
+# 6. Sync with upstream
+git pull upstream master
+
+# 7. Create a new branch
+git checkout -b BRANCH_NAME
+
+# 8. Make your changes
+
+# 9. Stage changes
+git add .
+
+# 10. Commit with a message
+git commit -m "Your commit message"
+
+# 11. Push to your fork
+git push -u origin BRANCH_NAME
