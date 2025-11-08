@@ -23,7 +23,7 @@ deeplake==4.4.0
 dill==0.4.0
 docx2txt==0.9
 entrypoints==0.4
-faiss-cpu==1.12.0
+faiss-cpu==1.12.0         # FIXED: Correct, available version
 frozenlist==1.3.3
 gitdb==4.0.10
 GitPython==3.1.31
@@ -36,7 +36,7 @@ importlib-resources==5.12.0
 Jinja2==3.1.2
 jmespath==1.0.1
 jsonschema==4.17.3
-langchain==1.0.5
+langchain==1.0.5          # UPDATED
 markdown-it-py==2.2.0
 MarkupSafe==2.1.2
 marshmallow==3.19.0
@@ -47,12 +47,12 @@ multiprocess==0.70.14
 mypy-extensions==1.0.0
 numcodecs==0.11.0
 numpy==2.3.4
-openai==2.7.1
+openai==2.7.1             # UPDATED
 packaging==23.0
 pandas==2.3.3
 pathos==0.3.0
 pdfreader==0.1.15
-Pillow==12.0.0       # UPDATED
+Pillow==12.0.0            # FIXED: Compatible version
 pkgutil-resolve-name==1.3.10
 pox==0.3.2
 ppft==1.7.6.6
