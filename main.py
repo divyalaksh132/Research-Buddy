@@ -1,6 +1,7 @@
 #main module integrating the sub-modules
-import requests
 import streamlit as st
+st.set_page_config(page_title="Research Buddy", page_icon="📖")
+import requests
 import emaill
 from openai.error import OpenAIError
 from side import sidebar
@@ -16,7 +17,6 @@ from tools import (
 
 def clear_submit():
     st.session_state["submit"] = False
-st.set_page_config(page_title="Research Buddy", page_icon="📖")
 sidebar()
 def load_lottie_url(url: str):
     r = requests.get(url)
