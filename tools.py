@@ -14,7 +14,15 @@ from langchain.vectorstores.faiss import FAISS
 from openai.error import AuthenticationError
 from prompts import STUFF_PROMPT
 from pypdf import PdfReader
-OPENAI_API_KEY=st.secrets["pass"]
+# Let the user input their API key
+OPENAI_API_KEY = st.session_state.get("openai_api_key")
+
+if not OPENAI_API_KEY:
+    st.sidebar.warning("Please enter your OpenAI API key to continue.")
+    OPENAI_API_KEY = st.sidebar.text_input("🔑 Enter your OpenAI API key:", type="password")
+    if OPENAI_API_KEY:
+        st.session_state["openai_api_key"] = OPENAI_API_KEY
+
 
 @st.cache_data
 def parse_docx(file: BytesIO) -> str:
